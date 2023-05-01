@@ -12,6 +12,7 @@ public class PersonService {
 	private PersonRepo repo;
 
 	List<Person> getAll() {
+
 		return repo.findAll();
 	}
 
