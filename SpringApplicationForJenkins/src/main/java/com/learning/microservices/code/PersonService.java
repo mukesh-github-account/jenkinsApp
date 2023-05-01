@@ -17,7 +17,7 @@ public class PersonService {
 	}
 
 	Person savePerson(Person person) {
-		System.out.println(person);
+		System.out.println("Testing >>> "+person);
 		return repo.save(person);
 	}
 
