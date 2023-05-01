@@ -16,6 +16,7 @@ public class PersonService {
 	}
 
 	Person savePerson(Person person) {
+		System.out.println(person);
 		return repo.save(person);
 	}
 
