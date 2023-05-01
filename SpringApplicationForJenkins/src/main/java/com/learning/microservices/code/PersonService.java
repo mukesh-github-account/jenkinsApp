@@ -12,10 +12,12 @@ public class PersonService {
 	private PersonRepo repo;
 
 	List<Person> getAll() {
+
 		return repo.findAll();
 	}
 
 	Person savePerson(Person person) {
+		System.out.println(person);
 		return repo.save(person);
 	}
 
